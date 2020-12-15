@@ -73,8 +73,8 @@ function draw() {
   strokeWeight(5);
     line(10,height/2+50,width,height/2+50);
     pop();
- 
- text("x:"+mouseX+" , y:"+mouseY,mouseX,mouseY)
+
+   // text("x:"+mouseX+" , y:"+mouseY,mouseX,mouseY)
  text("Score : "+score,20,30);
   Engine.update(engine);
   ground.display();
@@ -112,14 +112,14 @@ function draw() {
         score=score+100;
         click_it=false;
       }
-      else if(particles[particles.length-1].body.position.x > 580 && particles[particles.length-1].body.position.x < 750){
+      else if(particles[particles.length-1].body.position.x > 580 && particles[particles.length-1].body.position.x < 780){
         score=score+200;
         click_it=false;
       }
     }
 
     if(turn===5 ){
-      gameState="end";
+      //gameState="end";
      }
    }
 
