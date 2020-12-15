@@ -1,2 +1,2 @@
 
-Plinkos with Scores
+Plinkos with scores

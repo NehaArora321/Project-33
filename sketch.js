@@ -74,7 +74,7 @@ function draw() {
     line(10,height/2+50,width,height/2+50);
     pop();
 
-   text("x:"+mouseX+" , y:"+mouseY,mouseX,mouseY)
+   // text("x:"+mouseX+" , y:"+mouseY,mouseX,mouseY)
  text("Score : "+score,20,30);
   Engine.update(engine);
   ground.display();
