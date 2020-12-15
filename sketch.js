@@ -119,7 +119,7 @@ function draw() {
     }
 
     if(turn===5 ){
-      //gameState="end";
+      gameState="end";
      }
    }
 
